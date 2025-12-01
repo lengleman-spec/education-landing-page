@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Poppins", Times, serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
 /* HERO */
 
 .hero-description {
@@ -18,5 +24,25 @@
 
 /* Fonts */
 .feature {
-  font-family: "Poppins", Times, serif;
+  padding: 100px;
+}
+
+.feature-item {
+  padding: 30px 0;
+}
+
+.feature-title {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #23c93c;
+  margin-bottom: 10px;
+}
+
+.feature-title-selected {
+  text-decoration: underline;
+}
+
+.feature-description {
+  text-align: right;
 }
