@@ -3,3 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* HERO */
+
+.hero-description {
+  color: #81da76;
+}
+
+.hero-highlight {
+  color: #dbfbe0;
+}
+
+/* Fonts */
