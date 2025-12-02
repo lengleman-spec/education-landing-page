@@ -22,7 +22,7 @@ body {
   color: #dbfbe0;
 }
 
-/* Fonts */
+/* Features Section */
 .feature {
   padding: 100px;
 }
@@ -41,10 +41,6 @@ body {
 
 .feature-title-selected {
   text-decoration: underline;
-}
-
-.feature-description {
-  text-align: right;
 }
 
 /* Call to action */
