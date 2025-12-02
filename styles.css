@@ -46,3 +46,25 @@ body {
 .feature-description {
   text-align: right;
 }
+
+/* Call to action */
+.cta {
+  padding: 100px;
+  background-color: #5bb471;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-description {
+  padding: 15px 0;
+  color: #dbdbdb;
+}
+
+button {
+  color: none;
+  border: none;
+}
+
+.cta-button {
+  padding: 10px 20px;
+}
