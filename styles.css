@@ -64,3 +64,18 @@ button {
 .cta-button {
   padding: 10px 20px;
 }
+
+.video {
+  text-align: center;
+  font-weight: 500;
+  padding: 100px;
+}
+
+.video-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.video-description {
+  margin-top: 10px;
+}
