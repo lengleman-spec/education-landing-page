@@ -13,6 +13,11 @@ body {
 }
 
 /* HERO */
+.hero {
+  height: 50vh;
+  background-size: cover;
+  background-image: url(coding.jpg);
+}
 
 .hero-description {
   color: #81da76;
@@ -208,4 +213,24 @@ button {
 
 .element-form-group select {
   cursor: pointer;
+  background-color: white;
+}
+
+.element-form-group option {
+  padding: 8px;
+}
+
+.element-button {
+  background-color: #34c759;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.element-button:hover {
+  background-color: #2db14e;
 }
