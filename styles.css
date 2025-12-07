@@ -179,3 +179,33 @@ button {
   margin-right: 10px;
   color: #34c759;
 }
+
+.element-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.element-form-group label {
+  color: #333;
+  font-weight: 500;
+}
+
+.element-form-group input,
+.element-form-group select {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.element-form-group input:focus,
+.element-form-group select:focus {
+  outline: none;
+  border-color: #34c759;
+  box-shadow: 0 0 0 2px rgba(52, 199, 89, 0.2);
+}
+
+.element-form-group select {
+  cursor: pointer;
+}
