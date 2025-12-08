@@ -16,7 +16,7 @@ body {
 .hero {
   height: 50vh;
   background-size: cover;
-  background-image: url(coding.jpg);
+  background-image: url(imgs/coding.jpg);
   background-position: center;
   background-color: rgba(0, 0, 0, 0.55);
   background-blend-mode: overlay; /*darkens the background by applying a light gray over the bg image */
@@ -149,7 +149,7 @@ button {
 
 .video-container {
   margin-top: 20px;
-  background-image: url(learning-video.jpg);
+  background-image: url(imgs/learning-video.jpg);
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
